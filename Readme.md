@@ -1,11 +1,5 @@
 # 从零开始的图形学学习（零）：一切的开始 —— 自建OpenGL开发框架
 
-## Outline
-
-- Dependency: GLFW glad glm stb
-- Development Environment: MacOS Xcode 11.2.1
-
-
 ## Part I. Introduction
 
 图形学学习初期，在使用C++开发OpenGL项目时，不可避免的需要接触各种第三方依赖包的加载和对其进行开发平台/环境适配等问题。对于大部分C++基础不是特别牢固，或者对于开发平台IDE的工作原理不是特别熟悉的同学来说，这个过程不是特别友好。很容易把大把的时间和精力耗费在对第三方库文件的编译、链接等相关问题的解决上。
@@ -224,11 +218,11 @@
 
 ## Part IV. Have Fun With Graphics
 
-在你成功完成本文提到的四个依赖库的加载后，你项目文件目录大概会是这个样子的：
+在你成功完成本文提到的四个依赖库的加载后，你的项目文件目录大概会是这个样子的：
 
 ![avatar](./images/Project Structure Final.png)
 
-此时如果把[这些文件](https://github.com/Yuecooo/ParticleSystemEx/tree/master/ParticleSystemEx)加入你的Asserts、Headers、Shaders和Sources文件夹并且同步到Xcode运行的话，那么你就能得到一个2Dgame-Breakout游戏！这是不是比一个黑框框要好看的多？
+此时如果把[这些文件](https://github.com/Yuecooo/ExampleProject/tree/master/ExampleProject)加入你的Asserts、Headers、Shaders和Sources文件夹并且同步到Xcode运行的话，那么你就能得到一个2Dgame-Breakout游戏！这是不是比一个黑框框要好看的多？
 
 >按空格键开始，A/D键左右移动。
 
